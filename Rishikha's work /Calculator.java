@@ -1,4 +1,4 @@
-public class Calculation {
+public class Calculator {
     public static void main (String[] args) {
         calculate();
     }
@@ -22,5 +22,3 @@ public class Calculation {
     }
     public static void div(int a, int b) {
         System.out.println(a / b);
-    }
-}
