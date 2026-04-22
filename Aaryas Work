@@ -1,0 +1,26 @@
+//Aarya
+public class Calculadora {
+    public static void add(int a, int b) {
+        System.out.println(a+b);
+    }
+    public static void subtract(int a, int b) {
+        System.out.println(a-b);
+    }
+
+    public static void multiply(int a, int b) {
+        System.out.println(a*b);
+    }
+
+    public static void divide(int a, int b) {
+        System.out.println(a/b);
+    }
+
+    public static void main(String [] args) {
+        add(5,10);
+        subtract(7,3);
+        multiply(2,5);
+        divide(9,3);
+
+    }
+}
+
